@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_how_it_works"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.unocinco.HowItWorksActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="В идеале должна получиться неплохая викторина." />
+
+    <TextView
+        android:text='При начатии игры игроку будет предоставляться тема вопроса, к примеру, "Города", и за 3 секунды игрок должен решить, на сколько очков будет оцениваться этот вопрос.: 1 или 5 очков. Если игрок уверен в своих знаниях и выберет 5 очков, то при выигрыше он получит +5 очков, соответственно при проигрыше -5 очков. То же самое и с другой ставкой. У каждого вопроса будет по четыре вариантов ответа, а также будет дано 10 (или 15) секунд для ответа. '
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
